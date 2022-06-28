@@ -10,31 +10,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>goit-markup-hw-02</title>
+    <title>goit-markup-hw-03</title>
   </head>
   <body>
-    <header class="header">
-      <a href="index.html" class="header-logo"
-        ><span class="header-web">Web</span> Studio</a
-      >
-      <nav class="header-nav">
-        <a href="index.html" class="header-btn">Студия</a>
-        <a href="portfolio.html" class="header-btn">Портфолио</a>
-        <a href="#" class="header-btn">Контакты</a>
-      </nav>
-      <ul class="header-contacts">
-        <li class="header-contact-item">
-          <a href="mailto:info@devstudio.com" class="header-contact"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="header-contact">+380961111111</a>
-        </li>
-      </ul>
+    <!-- This is HEADER part -->
+    <header>
+      <div class="container header">
+        <a href="index.html" class="header-logo"
+          ><span class="header-web">Web</span> Studio</a
+        >
+        <nav class="header-nav">
+          <a href="index.html" class="header-btn">Студия</a>
+          <a href="portfolio.html" class="header-btn">Портфолио</a>
+          <a href="#" class="header-btn">Контакты</a>
+        </nav>
+        <ul class="header-contacts">
+          <li class="header-contact-item">
+            <a href="mailto:info@devstudio.com" class="header-contact"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="header-contact">+380961111111</a>
+          </li>
+        </ul>
+      </div>
     </header>
+    <!-- This is MAIN part -->
     <main>
+      <!-- This is SECTION ONE part with HERO -->
       <section class="section-one">
         <h1>
           Эффективные решения<br />
@@ -42,9 +54,10 @@
         </h1>
         <button type="button" class="section-button">Заказать услугу</button>
       </section>
+      <!-- This is SECTION TWO part with icons -->
       <section class="section-two">
         <h2></h2>
-        <ul class="section-two-list">
+        <ul class="section-two-list container">
           <li class="list-item">
             <h3>Внимание к деталям</h3>
             <p>
@@ -75,8 +88,9 @@
           </li>
         </ul>
         <section>
+          <!-- This is section two part with images -->
           <h2 class="section-two-heading">Чем мы занимаемся</h2>
-          <ul class="section-two-images">
+          <ul class="section-two-images container">
             <li>
               <img
                 src="images/img1.jpg"
@@ -104,9 +118,10 @@
           </ul>
         </section>
       </section>
+      <!-- This is SECTION THREE part with team -->
       <section class="section-three">
         <h2 class="section-three-heading">Наша команда</h2>
-        <ul class="section-three-container">
+        <ul class="section-three-container container">
           <li class="section-three-item">
             <img
               src="images/team1.jpg"
@@ -150,8 +165,9 @@
         </ul>
       </section>
     </main>
+    <!-- This is FOOTER part -->
     <footer>
-      <div class="footer-container">
+      <div class="container">
         <a href="index.html" class="footer-logo"
           ><span class="header-web">Web</span> Studio</a
         >
